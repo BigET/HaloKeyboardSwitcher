@@ -1,0 +1,3 @@
+[submodule "chromiumos_touch_keyboard"]
+	path = chromiumos_touch_keyboard
+	url = https://github.com/jekhor/chromiumos_touch_keyboard.git
