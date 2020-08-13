@@ -10,10 +10,10 @@ It is using the chromiumos_touch_keyboard module to do the virtual keyboard.
 
 in /etc/rc.local
 
-call mkKeyboard with the "k" parameter to make sure it will switch to the keyboard mode.
+Call mkKeyboard with the "k" parameter to make sure it will switch to the keyboard mode.
 
     /usr/local/bin/mkKeyboard.sh k 2> /dev/null > /dev/null &
 
-bin the power button to the keyboard switcher.
+Bind the power button to the keyboard switcher.
 
     /usr/local/bin/pwBut.sh /usr/local/bin/mkKeyboard.sh 2> /dev/null > /dev/null &
